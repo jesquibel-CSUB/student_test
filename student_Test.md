@@ -1,5 +1,7 @@
 # title
+
 ## Step 1
+``||input.temperature||``
 
 ```blocks
 basic.showLeds(`
@@ -132,7 +134,7 @@ basic.showLeds(`
     . . . . .
     `)```
 
-## **Step 6** - Drag a ** basic forever loop** from the basic folder.
+## Step 6 - Drag a ** basic forever loop** from the basic folder.
 Click on the ``||basic.basic||`` folder and drag a ``||basic.forever||``
 Continue your animation
 
@@ -172,7 +174,8 @@ basic.showLeds(`
     . . . . .
     . . . . .
     `)
-basic.forever(function ()```
+basic.forever(function ()
+```
 
 ## **Step 7** - Drag a basic **show Number** from the **basic folder** and place it into the **basic forever loop**.
 Drag a ``||basic.showNumber||`` and place it into ``||basic.forever||`` loop
@@ -216,7 +219,8 @@ basic.showLeds(`
     `)
 basic.forever(function () {
     basic.showNumber()
-})```
+})
+```
 
 ## Step 8 - Drag temperature from the Input folder and place it into the forever loop.
 Under the **toolbox** Click on the ``||input.input||`` folder and drag a ``||input.temperature||``  and place it into ``||basic.showNumber||``
@@ -259,7 +263,8 @@ basic.showLeds(`
     `)
 basic.forever(function () {
     basic.showNumber(input.temperature())
-})```
+})
+```
 
 ## Step 9 - Run the Program
 To run the program you will click on thermometer to display the temperature. 
