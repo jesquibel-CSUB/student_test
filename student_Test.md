@@ -31,7 +31,8 @@ basic.showLeds(`
     . # # # #
     . # . . .
     . # # # #
-    `)```
+    `)
+```
 
 ## **Step 3** - Drag a third **showLeds** into the second **showLeds**
  Drag  ``||basic.showLeds||`` place it into ``||basic.showLeds||``
@@ -57,7 +58,8 @@ basic.showLeds(`
     . # # # .
     . # . . .
     . # # # .
-    `)```
+    `)
+```
 
 ## **Step 4** - Drag a fourth  **showLeds** place it into the third **showLeds**
 Drag a ``||basic.showLeds||`` into ``||basic.showLeds||``
@@ -91,9 +93,10 @@ basic.showLeds(`
     . # # . .
     . # . . .
     . # # . .
-    `)```
+    `)
+```
 
-## **Step 5** - Drag a fifth **showLeds** place it into the fourth **showLeds**.
+## Step 5 - Drag a fifth showLeds place it into the fourth **showLeds**.
 Drag a ``||basic.showLeds||`` into ``||basic.showLeds||``
 Continue your animation
 
@@ -132,7 +135,8 @@ basic.showLeds(`
     . . # . .
     . . . . .
     . . . . .
-    `)```
+    `)
+```
 
 ## Step 6 - Drag a ** basic forever loop** from the basic folder.
 Click on the ``||basic.basic||`` folder and drag a ``||basic.forever||``
@@ -174,10 +178,11 @@ basic.showLeds(`
     . . . . .
     . . . . .
     `)
-basic.forever(function ()
+basic.forever(function () {
+})
 ```
 
-## **Step 7** - Drag a basic **show Number** from the **basic folder** and place it into the **basic forever loop**.
+## Step 7 - Drag a basic showNumber from the basic folder and place it into the basic forever loop.
 Drag a ``||basic.showNumber||`` and place it into ``||basic.forever||`` loop
 Finish your animation
 
