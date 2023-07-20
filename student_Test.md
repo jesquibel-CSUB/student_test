@@ -8,7 +8,8 @@ basic.showLeds(`
     # # # # #
     # # # # #
     # # # # #
-    `)```
+    `)
+```
 
 ## **Step 2** - Drag a second **showLeds**  into the first **showLeds**
 Click on the  ``||basic.basic||`` folder  to select the ``||basic.showLeds||``. 
