@@ -1,3 +1,7 @@
+# title
+## Step 1
+
+```blocks
 basic.showLeds(`
     # # # # #
     # # # # #
