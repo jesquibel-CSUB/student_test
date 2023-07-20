@@ -170,7 +170,7 @@ basic.showLeds(`
 basic.forever(function ()```
 
 ## **Step 7** - Drag a basic **show Number** from the **basic folder** and place it into the **basic forever loop**.
-Drag a ``||basic.showNumber()||`` and place it into ``||basic.forever(function())||`` loop
+Drag a ``||basic.showNumber||`` and place it into ``||basic.forever||`` loop
 Finish your animation
 
 ```blocks
@@ -213,7 +213,7 @@ basic.forever(function () {
     basic.showNumber()
 })```
 
-## Step 7 - Drag temperature from the Input folder and place it into the forever loop.
+## Step 8 - Drag temperature from the Input folder and place it into the forever loop.
 Under the **toolbox** Click on the ``||input.input||`` folder and drag a ``||input.temperature||``  and place it into ``||basic.showNumber||``
 
 ```blocks
@@ -256,6 +256,6 @@ basic.forever(function () {
     basic.showNumber(input.temperature())
 })```
 
-## **Step 8** - Run the Program
+## Step 9 - Run the Program
 To run the program you will click on thermometer to display the temperature. 
 You can lower or raise the temperature.
